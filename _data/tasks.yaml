@@ -1,0 +1,8 @@
+---
+- item: create task repo 
+  status: complete
+- item: build summary field for daniel-status
+  status: not done
+- item: rework daniel-status homepage for summary
+  status: not done
+---
