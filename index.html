@@ -4,7 +4,7 @@ layout: default
 
 <div class="tasklist">
     What is Daniel doing <br>
-    <a href="/about">what is this</a>
+    <a href="{{ prepend: site.baseurl }} /about">what is this</a>
     {% for task in site.data.tasks %}
     <div class="{{task.status}} task">
         {{task.item}}
